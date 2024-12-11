@@ -1,0 +1,174 @@
+@media (max-width:1920px) {
+	.container {
+		max-width: 1920px;
+	}
+}
+
+@media (max-width:1280px) {
+	.container {
+		max-width: 1280px;
+	}
+}
+
+@media (max-width:1200px) {
+	.container {
+		max-width: 1000px;
+	}
+}
+
+@media (max-width:992px) {
+	.container {
+		max-width: 800px;
+	}
+	hr {
+		width: 600px;
+	}
+}
+
+@media (max-width:800px) {
+	.container {
+		max-width: 700px;
+	}
+	#studio_subname {
+		letter-spacing: 10px;
+		padding-left: 10px;
+	}
+	#studio_subname_podpis {
+		letter-spacing: 3px;
+		padding-left: 3px;
+	}
+	#block_description {
+		width: 600px;
+	}
+}
+
+@media (max-width:650px) {
+	.container {
+		max-width: 600px;
+	}
+	hr {
+		width: 420px;
+		margin: 30px auto;
+	}
+	#studio_name {
+		font-size: 100px;
+	}
+	#studio_subname {
+		letter-spacing: 5px;
+		padding-left: 5px;
+	}
+	#studio_subname_podpis {
+		font-size: 18px;
+		letter-spacing: 1px;
+		padding-left: 1px;
+	}
+	#first_image {
+		width: 350px;
+		height: 350px;
+		border-radius: 5px;
+	}
+	#block_description {
+		width: 400px;
+		text-wrap: pretty;
+	}
+	.item {
+		width: 400px;
+	}
+}
+
+@media (max-width:500px) {
+	.container {
+		max-width: 500px;
+	}
+	hr {
+		width: 350px;
+		margin: 25px auto;
+	}
+	#studio_name {
+		font-size: 80px;
+	}
+	#studio_subname {
+		letter-spacing: 2px;
+		padding-left: 2px;
+	}
+	#studio_subname_podpis {
+		font-size: 14px;
+		letter-spacing: none;
+		padding-left: 0px;
+	}
+	#first_image {
+		width: 300px;
+		height: 300px;
+		border-radius: 5px;
+	}
+	#block_description {
+		width: 350px;
+		text-wrap: pretty;
+	}
+	.item {
+		width: 350px;
+	}
+	.item span {
+		font-size: 18px;
+	}
+	#text_footer {
+		font-size: 14px;
+	}
+}
+
+@media (max-width:450px) {
+	.header {
+		max-width: 400px;
+	}
+	.container {
+		max-width: 400px;
+	}
+	hr {
+		width: 250px;
+		margin: 20px auto;
+	}
+	.vertical_line {
+		height: 35px;
+	}
+	#studio_name {
+		font-size: 50px;
+		letter-spacing: 30px;
+		padding-left: 30px;
+	}
+	#studio_subname {
+		font-size: 20px;
+		letter-spacing: 2px;
+		padding-left: 2px;
+	}
+	#studio_subname_podpis {
+		font-size: 12px;
+		letter-spacing: none;
+		padding-left: 0px;
+	}
+	#first_image {
+		width: 250px;
+		height: 250px;
+		border-radius: 5px;
+	}
+	#block_description {
+		font-size: 14px;
+		width: 300px;
+		text-wrap: pretty;
+	}
+	.text_caption {
+		font-size: 20px;
+	}
+	.item {
+		width: 300px;
+		padding: 1px;
+	}
+	.item span {
+		font-size: 12px;
+	}
+	.item_image {
+		width: 40px;
+	}
+	#text_footer {
+		font-size: 12px;
+	}
+}
